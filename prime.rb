@@ -9,6 +9,8 @@ def prime?(num)
     elsif divisor == 0
       return true
     end
+  elsif num == 1
+    return false
   elsif num<0
     return false
   else
