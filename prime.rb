@@ -11,5 +11,7 @@ def prime?(num)
     end
   elsif num<0
     return false
+  else
+    return false
   end
 end
